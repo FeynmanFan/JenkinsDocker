@@ -1,0 +1,11 @@
+c:\Code\JenkinsDocker\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+c:\Code\JenkinsDocker\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+c:\Code\JenkinsDocker\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+c:\Code\JenkinsDocker\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+c:\Code\JenkinsDocker\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+c:\Code\JenkinsDocker\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+c:\Code\JenkinsDocker\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+c:\Code\JenkinsDocker\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+c:\Code\JenkinsDocker\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+c:\Code\JenkinsDocker\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+c:\Code\JenkinsDocker\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
