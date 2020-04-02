@@ -8,7 +8,7 @@ node('docker'){
 		dockerImage = docker.build('chrisbbehrens/agent-dnc:v$BUILD_NUMBER', './dotnetcore');
 	}
 	stage('push'){
-		docker.withRegistry('', 'dockerhubcreds'){
+		docker.withRegistry('https://index.docker.io/v1/', 'dockerhubcreds'){
 			dockerImage.push();
 		}
 	}
