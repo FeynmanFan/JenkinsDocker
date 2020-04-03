@@ -14,4 +14,7 @@ node('DOTNETCORE'){
 	stage('Deploy'){
 		echo 'Push to deployment'
 	}
+	stage('Archive'){
+		archiveArtifacts artifacts: 'ConsoleApp1/*.*'
+	}
 }
