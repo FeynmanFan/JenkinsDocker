@@ -1,6 +1,6 @@
 def dockerImage;
 
-node('docker-ex'){
+node('docker'){
 	stage('SCM'){
 		checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/FeynmanFan/JenkinsDocker']]]);
 	}
@@ -8,7 +8,7 @@ node('docker-ex'){
 		docker.withRegistry('https://index.docker.io/v1/', 'dockerhubcreds'){
 			sh 'docker buildx create --name cbbspace' 
 			sh 'docker buildx use cbbspace'
-			sh 'docker buildx build -t chrisbbehrens/simplednc:jenkinsfile --platform=linux/amd64,linux/arm/v7 - < simplednc.Dockerfile --push'
+			sh 'docker buildx build -t chrisbbehrens/simplednc:jenkinsfile --platform=linux/amd64,linux/arm/v7 - < dncgit.Dockerfile --push'
 		}
 		
 	}
