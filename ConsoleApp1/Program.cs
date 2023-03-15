@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace ConsoleApp1
+﻿namespace ConsoleApp1
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Jenkins-Docker");
+            Console.WriteLine("Hello, Jenkins-Docker!");
         }
     }
 }
