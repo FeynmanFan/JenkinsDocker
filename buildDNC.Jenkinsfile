@@ -6,7 +6,7 @@ node('docker'){
 	}
 	stage('build'){
 		echo docker.build('chrisbbehrens/agent-dnc:' + v${env.BUILD_NUMBER};
-		dockerImage = docker.build('chrisbbehrens/agent-dnc:" + v${env.BUILD_NUMBER}, './dotnetcore');
+		dockerImage = docker.build('chrisbbehrens/agent-dnc:' + v${env.BUILD_NUMBER}, './dotnetcore');
 	}
 	stage('push'){
 		docker.withRegistry('https://index.docker.io/v1/', 'dockerhubcreds'){
