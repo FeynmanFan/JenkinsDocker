@@ -12,4 +12,4 @@ RUN curl -sSL https://get.docker.com/ | sh
 
 RUN usermod -aG docker jenkins
 
-CMD dockerd
+CMD update-alternatives --set iptables /usr/sbin/iptables-legacy && dockerd
